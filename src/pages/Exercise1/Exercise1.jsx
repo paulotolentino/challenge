@@ -25,7 +25,7 @@ class Exercise1 extends Component {
             if (pokemonNumber < 100) return `0${pokemonNumber}`;
             return pokemonNumber;
         };
-        axios.get(`https://pokeapi.co/api/v2/pokemon?limit=500`).then(res => {
+        axios.get(`https://pokeapi.co/api/v2/pokemon`).then(res => {
             const availableElements = res.data.results.map((item, ix) => {
                 return ({
                     number: getPokemonNumber(ix + 1),
