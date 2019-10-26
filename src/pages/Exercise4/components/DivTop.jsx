@@ -31,12 +31,12 @@ export default function DivTop() {
         <div className="divTop row">
             <div className="col-md-6">
                 <img alt="temperatura média" src={Media} />
-                <span className="city"> 23</span><br />
-                <span className="date"> Sensação térmica 22</span>
+                <span className="temperatura"> 23</span><br />
+                <span className="sensacao"> Sensação térmica 22</span>
             </div>
             <div className="col-md-6">
-                <img alt="nublado" src={Nublado} className="term"/>
-                <span className="temp"> Nublado</span>
+                <img alt="nublado" src={Nublado} className="clima"/><br />
+                <span className="nub"> Nublado</span>
             </div>
         </div>
 

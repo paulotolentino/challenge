@@ -16,8 +16,7 @@ const instructions = [
 class Exercise1 extends Component {
     state = {
         availableElements: [],
-        selectedElements: [],
-        availableIcons : []
+        selectedElements: []
     }
     
     componentDidMount() {

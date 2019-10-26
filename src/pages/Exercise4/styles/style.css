@@ -90,3 +90,46 @@ nav {
     opacity: 1;
     color: #2BCBBA;
 }
+
+.clima{
+    top: 294px;
+    left: 503px;
+    width: 196px;
+    height: 115px;
+    opacity: 1;
+}
+
+.nub{
+    top: 431px;
+    left: 503px;
+    width: 196px;
+    height: 29px;
+    text-align: center;
+    font: Bold 23px/27px Arial;
+    letter-spacing: 0;
+    color: #4B6584;
+    opacity: 1;
+}
+
+.temperatura{
+    top: 271px;
+    left: 159px;
+    width: 243px;
+    height: 160px;
+    text-align: center;
+    font: Regular 160px/184px Arial;
+    letter-spacing: 0;
+    color: #4B6584;
+    opacity: 1;
+}
+
+.sensacao{
+    top: 434px;
+    left: 159px;
+    width: 229px;
+    height: 30px;
+    border: 1px solid #2BCBBA;
+    border-radius: 50px;
+    opacity: 1;
+    padding: 3px
+}
