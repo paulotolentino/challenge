@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import DescriptionExercise from "../DescriptionExercise";
 import prototypeClimao from "../../assets/prototypes/climao.png";
 import classes from "./Excercise4.module.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
+import DivLeft from './components/DivLeft';
+
 
 const prototypeUrl =
     "//xd.adobe.com/spec/9ebd698b-429e-4369-51b6-da668ae21fd2-e88c";
@@ -43,12 +47,11 @@ const instructions = [
 export default function Exercise4() {
     return (
         <>
-            <DescriptionExercise instructions={instructions} />
-            <img
-                alt="Protótipo"
-                src={prototypeClimao}
-                className={classes.PrototypeImage}
-            />
+            {/* <DescriptionExercise instructions={instructions} /> */}
+            <Navbar />
+            <div className={`${classes.divMother} row`} >
+                <DivLeft />                  
+            </div>
         </>
     );
 }
