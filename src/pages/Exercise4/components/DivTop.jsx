@@ -16,13 +16,13 @@ export default function DivTop() {
     return <>
         <div className="divTop row">
             <div className="col-md-6">
-                <img alt="localização"src={Localizacao} />
+                <img alt="localização" src={Localizacao} />
                 <span className="city"> Campinas</span><br />
                 <span className="date"> Quin, 10 de outubro de 2019</span>
             </div>
             <div className="col-md-6">
-                <span className="temp"> <img alt="temperatura máxima"src={Maxima} className="term"/> Max. 26</span>
-                <span className="temp"> <img alt="temperatura mínima"src={Minima} className="term"/> Min. 15</span>
+                <span className="temp"> <img alt="temperatura máxima" src={Maxima} className="term"/> Max. 26</span>
+                <span className="temp"> <img alt="temperatura mínima" src={Minima} className="term"/> Min. 15</span>
             </div>
             
 
@@ -30,7 +30,7 @@ export default function DivTop() {
 
         <div className="divTop row">
             <div className="col-md-6">
-                <img alt="temperatura média"src={Media} />
+                <img alt="temperatura média" src={Media} />
                 <span className="city"> 23</span><br />
                 <span className="date"> Sensação térmica 22</span>
             </div>
@@ -42,18 +42,18 @@ export default function DivTop() {
 
         <div className="divTop row">
             <div className="col-md-4">
-                <img alt="umidade"src={Umidade} />
+                <img alt="umidade" src={Umidade} />
                 <span className="city"> Campinas</span><br />
                 <span className="date"> Umidade</span>
                 <span className="date"> 66%</span>
             </div>
             <div className="col-md-4">
-                <img alt="velocidade do vento"src={Velocidade} className="term"/>
+                <img alt="velocidade do vento" src={Velocidade} className="term"/>
                 <span className="temp"> Velocidade do vento</span>
                 <span className="temp"> 23km/h</span>
             </div>
             <div className="col-md-4">
-                <img alt="direção do vento"src={Direcao} className="term"/>
+                <img alt="direção do vento" src={Direcao} className="term"/>
                 <span className="temp"> Direção do vento</span>
                 <span className="temp"> Min. ND</span>
             </div>

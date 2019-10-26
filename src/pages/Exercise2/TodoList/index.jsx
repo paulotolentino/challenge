@@ -42,6 +42,8 @@ class TodoList extends Component {
         this.onDragEnd = this.onDragEnd.bind(this);
     }
 
+    onChange = this.props.onChangeOrder;
+
     onDragEnd(result) {
         // dropped outside the list
         if (!result.destination) {
@@ -53,10 +55,12 @@ class TodoList extends Component {
             result.source.index,
             result.destination.index
         );
+        
+        this.setState({ todos },
+            this.onChange(todos)
+        )
+        // this.props.onChangeOrder(this.state.todos);
 
-        this.setState({ todos })
-
-        this.props.onChangeOrder(this.state.todos);
     }
 
     // Normally you would want to split things out into separate components.
