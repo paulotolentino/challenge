@@ -42,20 +42,19 @@ export default function DivTop() {
 
         <div className="divTop row">
             <div className="col-md-4">
-                <img alt="umidade" src={Umidade} />
-                <span className="city"> Campinas</span><br />
-                <span className="date"> Umidade</span>
-                <span className="date"> 66%</span>
+                <img alt="umidade" className="icone" src={Umidade} />
+                <span className="peq"> Umidade</span>
+                <span className="peq2"> 66%</span>
             </div>
             <div className="col-md-4">
-                <img alt="velocidade do vento" src={Velocidade} className="term"/>
-                <span className="temp"> Velocidade do vento</span>
-                <span className="temp"> 23km/h</span>
+                <img alt="velocidade do vento" className="icone" src={Velocidade} className="term"/>
+                <span className="peq"> Velocidade do vento</span>
+                <span className="peq2"> 23km/h</span>
             </div>
             <div className="col-md-4">
-                <img alt="direção do vento" src={Direcao} className="term"/>
-                <span className="temp"> Direção do vento</span>
-                <span className="temp"> Min. ND</span>
+                <img alt="direção do vento" className="icone" src={Direcao} className="term"/>
+                <span className="peq"> Direção do vento</span>
+                <span className="peq2"> Min. ND</span>
             </div>
         </div>
 

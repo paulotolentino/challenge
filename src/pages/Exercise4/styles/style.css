@@ -133,3 +133,36 @@ nav {
     opacity: 1;
     padding: 3px
 }
+
+.icone{
+    top: 535px;
+left: 418px;
+width: 34px;
+height: 26px;
+opacity: 1;
+}
+
+.peq{
+    top: 570px;
+left: 144px;
+width: 181px;
+height: 29px;
+text-align: center;
+font: Regular 16px/18px Arial;
+letter-spacing: 0;
+color: #4B6584;
+opacity: 1;
+
+}
+
+.peq2{
+    top: 615px;
+left: 144px;
+width: 181px;
+height: 32px;
+text-align: center;
+font: Bold 28px/32px Arial;
+letter-spacing: 0;
+color: #4B6584;
+opacity: 1;
+}
